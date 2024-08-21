@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="icon" href="Assets/youtube.png" type="image/x-icon">
+    <link rel="stylesheet" href="youtube.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="hidden" id="under">
+      <div>
+     <button onclick="closee()"> <img src="./Assets/menu.png" alt="" title="Home" /></button> 
+     <a href=""
+           ><img src="./Assets/Home.png" alt="" title="YouTube Home"
+         /></a>
+    </div>
+    <div class="columnn d-f fd-c" >
+      <a href="" class="d-f"
+       ><img src="Assets/homee.png" alt="" title="Home" />Home</a
+     >
+    
+     <a href="" class="d-f"
+       ><img src="Assets/shorts.png" alt="" title="Shorts" />Shorts</a
+     >
+     
+     <a href="" class="d-f"
+       ><img 
+         src="Assets/subscriptions.png"
+         alt=""
+         title="Subscriptions"
+       />Subscriptions</a
+     >
+     <a href="" class="d-f"
+          ><img src="Assets/you.png" alt="" title="you" />You</a
+        >
+
+    </div>
+      
+      </div>
+    <header id="header">
+      <nav>
+        <div class="homeMenu d-f">
+        <div ><button onclick="openn()"><img src="./Assets/menu.png" alt="" /></button>
+
+       </div> 
+ 
+         <a href=""
+           ><img src="./Assets/Home.png" alt="" title="YouTube Home"
+         /></a>
+       </div>
+ 
+       <div class="searchMenu d-f">
+         <div class="searchBar" id="searchBar">
+                    <div class="hiddenSearch" id="hiddenSearch">
+                      <img
+                        src="Assets/smallsearch.png"
+                        alt=""
+                        style="
+                          margin: 0px 0px;
+                          padding-top: 5px;
+                          width: 30px;
+                          height: fit-content;
+                        "
+                      />
+                    </div>
+
+                    <div class="search d-f" id="search">
+                      <input type="text" id="searchInput" placeholder="Search" />
+                    </div>
+         
+
+                 </div>
+         <div class="seperateSearch">
+           <img src="Assets/search.png" alt="" title="Search" />
+         </div>
+         
+        
+         <div
+           style="
+             padding-top: 7px;
+             margin: 0 5px;
+             background-color: rgb(205, 205, 205);
+             border-radius: 50%;
+           "
+         >
+           <img
+             src="Assets/microphone.png"
+             alt=""
+             title="Search with your voice"
+           />
+         </div>
+       </div>
+ 
+       <div class="accountMenu d-f">
+         <img src="Assets/create.png" alt="" title="Create" />
+         <img src="Assets/bell.png" alt="" height="" title="Notifications" />
+         <img src="Assets/profile.png" alt="" width="" />
+       </div>
+      <div class="mobileMenu d-f ">
+        <img src="Assets/search.png" alt="" title="Search" />
+        <img src="Assets/profile.png" alt="" width="" />
+      </div>
+    </nav>
+       <div>
+        
+        <div class="Scroll">
+          <button id="mobileViewButton" onclick="openn()"><img src="Assets/compass.png" alt=""></button>
+          <a href="" title="All">All</a>
+          <a href="" title="Music">Music</a>
+          <a href="" title="Mixes">Mixes</a>
+          <a href="" title="Desvi Sri Prasad">Devi Sri Prasad</a>
+          <a href="" title="Anirudh ravichander">Anirudh Ravichander</a>
+          <a href="" title="Thaman SS">Thaman SS</a>
+          <a href="" title="Java Script">Java Script </a>
+          <a href="" title="Live">Live</a>
+          <a href="" title="Prabhas">Prabhas </a>
+          <a href="" title="Mahabharat">Mahabharat</a>
+          <a href="" title="Kalki">Kalki</a>
+          <a href="" title="Kalki">SS Rajamouli</a>
+          <a href="" title="Nagashwin">Nagashwin </a>
+          <a href="" title="Prashanth Varma">Prashanth varma</a>
+          <a href="" title="Krishnavataram">Krishnavataram</a>
+        </div>
+       </div>
+    </header>
+
+    
+    <main>
+
+      <div cllass="VerticalBar" id="vb">
+        <a href="" class="d-f fd-c"
+          ><img src="Assets/homee.png" alt="" title="Home" />Home</a
+        >
+        <a href="" class="d-f fd-c"
+          ><img src="Assets/shorts.png" alt="" title="Shorts" />Shorts</a
+        >
+        <a href="" class="d-f fd-c"
+          ><img
+            src="Assets/subscriptions.png"
+            alt=""
+            title="Subscriptions"
+          />Subscriptions</a
+        >
+        <a href="" class="d-f fd-c"
+          ><img src="Assets/you.png" alt="" title="you" />You</a
+        >
+      </div>
+      <div id="empty"></div>
+      <div id="main">
+        <div class="grid d-f" id="grid">
+          <a href="">
+            <div class="cell">
+              <div class="thumbnail" width="">
+                <video
+                  src="Assets/Sample Video.mp4"
+                  controls
+                  width="100%"
+                ></video>
+              </div>
+              <div class="details d-f">
+                <img src="Assets/channel2.png" alt="" class="channel" />
+                <div class="text d-f fd-c">
+                  <p class="title">
+                    Video title here | Wild Life | Sample video | Windows 7
+                    sample video
+                  </p>
+                  <p class="channelName">Channel Name</p>
+                  <p>
+                    <span class="views">1M views</span>
+                    <span class="dot">●</span>
+                    <span class="time">1day ago</span>
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="Assets/dotscopy.png"
+                    alt=""
+                    style="height: 20px; width: auto; margin: 10px 0 0 0px"
+                  />
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="cell">
+              <div class="thumbnail" width="">
+                <video
+                  src="Assets/Sample Video.mp4"
+                  controls
+                  width="100%"
+                ></video>
+              </div>
+              <div class="details d-f">
+                <img src="Assets/channel2.png" alt="" class="channel" />
+                <div class="text d-f fd-c">
+                  <p class="title">
+                    Video title here | Wild Life | Sample video | Windows 7
+                    sample video
+                  </p>
+                  <p class="channelName">Channel Name</p>
+                  <p>
+                    <span class="views">1M views</span>
+                    <span class="dot">●</span>
+                    <span class="time">1day ago</span>
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="Assets/dotscopy.png"
+                    alt=""
+                    style="height: 20px; width: auto; margin: 10px 0 0 0px"
+                  />
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="cell">
+              <div class="thumbnail" width="">
+                <video
+                  src="Assets/Sample Video.mp4"
+                  controls
+                  width="100%"
+                ></video>
+              </div>
+              <div class="details d-f">
+                <img src="Assets/channel2.png" alt="" class="channel" />
+                <div class="text d-f fd-c">
+                  <p class="title">
+                    Video title here | Wild Life | Sample video | Windows 7
+                    sample video
+                  </p>
+                  <p class="channelName">Channel Name</p>
+                  <p>
+                    <span class="views">1M views</span>
+                    <span class="dot">●</span>
+                    <span class="time">1day ago</span>
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="Assets/dotscopy.png"
+                    alt=""
+                    style="height: 20px; width: auto; margin: 10px 0 0 0px"
+                  />
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="cell">
+              <div class="thumbnail" width="">
+                <video
+                  src="Assets/Sample Video.mp4"
+                  controls
+                  width="100%"
+                ></video>
+              </div>
+              <div class="details d-f">
+                <img src="Assets/channel2.png" alt="" class="channel" />
+                <div class="text d-f fd-c">
+                  <p class="title">
+                    Video title here | Wild Life | Sample video | Windows 7
+                    sample video
+                  </p>
+                  <p class="channelName">Channel Name</p>
+                  <p>
+                    <span class="views">1M views</span>
+                    <span class="dot">●</span>
+                    <span class="time">1day ago</span>
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="Assets/dotscopy.png"
+                    alt=""
+                    style="height: 20px; width: auto; margin: 10px 0 0 0px"
+                  />
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="cell">
+              <div class="thumbnail" width="">
+                <video
+                  src="Assets/Sample Video.mp4"
+                  controls
+                  width="100%"
+                ></video>
+              </div>
+              <div class="details d-f">
+                <img src="Assets/channel2.png" alt="" class="channel" />
+                <div class="text d-f fd-c">
+                  <p class="title">
+                    Video title here | Wild Life | Sample video | Windows 7
+                    sample video
+                  </p>
+                  <p class="channelName">Channel Name</p>
+                  <p>
+                    <span class="views">1M views</span>
+                    <span class="dot">●</span>
+                    <span class="time">1day ago</span>
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="Assets/dotscopy.png"
+                    alt=""
+                    style="height: 20px; width: auto; margin: 10px 0 0 0px"
+                  />
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="cell">
+              <div class="thumbnail" width="">
+                <video
+                  src="Assets/Sample Video.mp4"
+                  controls
+                  width="100%"
+                ></video>
+              </div>
+              <div class="details d-f">
+                <img src="Assets/channel2.png" alt="" class="channel" />
+                <div class="text d-f fd-c">
+                  <p class="title">
+                    Video title here | Wild Life | Sample video | Windows 7
+                    sample video
+                  </p>
+                  <p class="channelName">Channel Name</p>
+                  <p>
+                    <span class="views">1M views</span>
+                    <span class="dot">●</span>
+                    <span class="time">1day ago</span>
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="Assets/dotscopy.png"
+                    alt=""
+                    style="height: 20px; width: auto; margin: 10px 0 0 0px"
+                  />
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="cell">
+              <div class="thumbnail" width="">
+                <video
+                  src="Assets/Sample Video.mp4"
+                  controls
+                  width="100%"
+                ></video>
+              </div>
+              <div class="details d-f">
+                <img src="Assets/channel2.png" alt="" class="channel" />
+                <div class="text d-f fd-c">
+                  <p class="title">
+                    Video title here | Wild Life | Sample video | Windows 7
+                    sample video
+                  </p>
+                  <p class="channelName">Channel Name</p>
+                  <p>
+                    <span class="views">1M views</span>
+                    <span class="dot">●</span>
+                    <span class="time">1day ago</span>
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="Assets/dotscopy.png"
+                    alt=""
+                    style="height: 20px; width: auto; margin: 10px 0 0 0px"
+                  />
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="cell">
+              <div class="thumbnail" width="">
+                <video
+                  src="Assets/Sample Video.mp4"
+                  controls
+                  width="100%"
+                ></video>
+              </div>
+              <div class="details d-f">
+                <img src="Assets/channel2.png" alt="" class="channel" />
+                <div class="text d-f fd-c">
+                  <p class="title">
+                    Video title here | Wild Life | Sample video | Windows 7
+                    sample video
+                  </p>
+                  <p class="channelName">Channel Name</p>
+                  <p>
+                    <span class="views">1M views</span>
+                    <span class="dot">●</span>
+                    <span class="time">1day ago</span>
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="Assets/dotscopy.png"
+                    alt=""
+                    style="height: 20px; width: auto; margin: 10px 0 0 0px"
+                  />
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="cell">
+              <div class="thumbnail" width="">
+                <video
+                  src="Assets/Sample Video.mp4"
+                  controls
+                  width="100%"
+                ></video>
+              </div>
+              <div class="details d-f">
+                <img src="Assets/channel2.png" alt="" class="channel" />
+                <div class="text d-f fd-c">
+                  <p class="title">
+                    Video title here | Wild Life | Sample video | Windows 7
+                    sample video
+                  </p>
+                  <p class="channelName">Channel Name</p>
+                  <p>
+                    <span class="views">1M views</span>
+                    <span class="dot">●</span>
+                    <span class="time">1day ago</span>
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="Assets/dotscopy.png"
+                    alt=""
+                    style="height: 20px; width: auto; margin: 10px 0 0 0px"
+                  />
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <a href="" class="d-f fd-c"
+      >
+      <img src="Assets/homee.png" alt="" title="Home" />Home</a
+    >
+   
+    <a href="" class="d-f fd-c"
+      ><img src="Assets/shorts.png" alt="" title="Shorts" />Shorts</a
+    >
+    
+    <a href="" class="d-f fd-c"
+      ><img 
+        src="Assets/subscriptions.png"
+        alt=""
+        title="Subscriptions"
+      />Subscriptions</a
+    >
+    <a href="" class="d-f fd-c"
+         ><img src="Assets/you.png" alt="" title="you" />You</a
+       >
+
+    </footer>
+
+    <script src="youtube.js"></script>
+  </body>
+</html>
