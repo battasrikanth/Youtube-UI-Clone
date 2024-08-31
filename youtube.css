@@ -240,7 +240,7 @@ footer{
 
          @media only screen and (max-width:590px) and (min-width:20px){
             #grid a{
-                flex: 0 0 95%;
+                flex: 0 0 100%;
             }
             .searchMenu{
                 display: none;
@@ -256,6 +256,14 @@ footer{
             }
             #mobileViewButton{
                 display: block;
+            }
+            #grid{
+                padding: 0px;
+                margin:0px;
+            }
+            #grid a{
+                text-align: center;
+                justify-content: center;
             }
 
          }
