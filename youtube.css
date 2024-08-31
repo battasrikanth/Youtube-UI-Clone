@@ -240,7 +240,7 @@ footer{
 
          @media only screen and (max-width:590px) and (min-width:20px){
             #grid a{
-                flex: 0 0 100%;
+                flex: 1 0 95%;
             }
             .searchMenu{
                 display: none;
